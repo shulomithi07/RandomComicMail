@@ -1,0 +1,650 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+        
+    background-image: linear-gradient(315deg,  #66fcf1 55%,   #1f2833 50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* background-image */
+body{
+    background-image:url("https://lh3.googleusercontent.com/omhZmvQznb_9b3P8m61H9WjbZm674-vgoOw6lANX3ro0hfP-YAUs8a6NPU0CKaAizwwjeJcqfgc5nWnh15lRh9E9UkmxiZ7mRFAwYJH6g7Qf9JrSo9xAkBwv7k0WcuwHNcdELi0slLU=w2400");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+/* DONT HAVE AN ACCOUNT TEXT */
+.text{
+
+    text-shadow: 0px 0px 1px #000, 
+           0.5px 0px 1px black;
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+      
+      
+      /* THe main container */
+      .signup{
+            position: relative;
+            margin: auto;
+            background: linear-gradient(to top, rgba( 255, 255, 255, 0.65 )  50%,  rgba(34, 29, 70, 0.733) 30%);
+            box-shadow: 0 8px 32px 0 rgba( 1,8, 5, 0.37 );
+            backdrop-filter: blur( 4px );
+            -webkit-backdrop-filter: blur( 4px );
+            border-radius: 10px;
+            border: 1px solid rgba( 255, 255, 255, 0.18 ); 
+            width: 80vw;
+            height:90vh;
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            flex-direction:column-reverse;
+            border-radius: 100% / 20%   ; 
+      }
+  
+      
+      /* Break tag for responsive alignment */
+      .hide{
+          display:block;
+      }
+      
+    /* The image and the login link div */
+    .left{
+        width: 60vw;
+        height: 50vw;
+        justify-content: space-between;
+        align-items: center;
+
+
+    }
+
+    
+    /* THe image div */
+    #image{
+        width:50vw;
+        height: 40vw;
+    }
+    
+    /* The login link */
+    a{
+        background-color:#000;
+        width: 40vw;
+        text-decoration: none;
+        color:#66fcf1;
+        border:2px solid #66fcf1;
+        padding: 1vw;
+        border-radius: 81% 19% 28% 72% / 79% 67% 33% 21% ;
+        font-size: 2vh;
+    }
+
+    a.redirect{
+        background:none;
+        border-radius:2px;
+        color:black;
+        border:2px solid black;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:40vw;
+        height:10vw;
+    }
+
+    a.redirect:hover{
+        background:none;
+        border-radius: 28% 72% 81% 19%  / 67% 59% 41% 33%;
+        color:black;
+        border:2px solid black;
+        display:flex;
+        justify-content:center;
+        text-shadow:none;
+    }
+
+
+
+    /* The form and session message block */
+    .right{
+        width: 80vw;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2vh;
+    }
+
+    /* The why so late fill details and the session message div */
+    .msg{
+        width:70vw;
+        height:10vh;
+        font-size:2vw;
+        background-color:black;
+        color:white;
+        padding-top:1vh;
+        padding-bottom:1vh;
+        border-radius:5px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+
+
+    /* The form block */
+    .center{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* Form tag */
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
+        height: 30vh;
+        justify-content: center;
+        align-items:center;
+        gap: 1vh;
+    }
+
+
+    /* The form input and its styling */
+    input{
+        width: 60vw;
+        height:5vh;
+        background-color:rgb(4, 4, 10);
+        outline: none;
+        border-radius: 14px;
+        color:#fff;
+        font-size:2.4vh;
+    }
+
+    /* The input tags on focus */
+    input:focus{
+        background-color:rgb(251, 254, 254);
+        color:#000;
+        font-size:4vh;
+        height:6vh;
+        
+    }
+
+    /* The placeholder for input tags */
+    ::placeholder{
+        color:#fff;
+        font-size:2.4vh;
+    }
+
+    /* The submit button */
+    input[type=submit]{
+        
+        background:rgb(4, 4, 10);
+        box-shadow: 0 8px 32px 0 rgba( 1, 8, 15, 0.37 );
+        backdrop-filter: blur( 8.0px );
+        -webkit-backdrop-filter: blur( 8.0px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        width:45vw;
+        height: 5vh;
+        text-align: center;
+        color:white;
+        padding-top:0.5vw;
+        padding-bottom:0.5vw;
+        font-size: 2.4vh;
+        
+    }
+
+    /* Submit button on hover */
+    input[type=submit]:hover{
+        background-image: linear-gradient(190deg ,rgba(189, 210, 224, 0.35),rgba(121, 189, 235, 0.35),rgba(86, 140, 184, 0.35));
+    }
+
+    /* The know your password */
+    .hide{
+        display:block;
+    }
+
+    /* Forgot password link */
+    .forgot{
+        border:none;
+        background-color:transparent;
+        border-radius:2px;
+        width:60vw;
+        height:4vh;
+        padding:10px;
+        display:flex;
+        justify-content:center;
+        align-self:center;
+        font-size:2.3vh;
+        color:rgb(0, 0, 0);
+    }
+
+    /* The forgot password on hover */
+    .forgot:hover{
+        
+        border:none;
+        background-color:transparent;
+        color:rgb(168, 167, 167);
+        text-shadow: 0px 0px 1px #eef0f0, 
+                0px 0px 2px #eff1f1;
+    }
+
+          
+}
+  
+
+
+    @media only screen and (max-width: 1200px) and (min-width: 1001px)  {
+        
+    /* The main container */
+    .signup{
+        position: relative;
+        margin:4vh auto;
+        padding-left:1vw;
+        padding-right:1vw;
+        padding-top:2vw;
+        padding-bottom:2vw;
+        background: rgba( 255, 255, 255, 0.15 );
+        background: linear-gradient(to right, rgba(247, 227, 227, 0.75) 50%, rgba(29, 30, 48, 0.85) 50%);
+        box-shadow: 0 8px 32px 0 rgba( 1,8, 5, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        width: 80vw;
+        height:70vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 100% / 20%   ;
+    }
+
+    /* THe image div */
+    #image{
+        width:35vw;
+        height: 30vw;
+    }
+
+    /* The image and the login link div */
+    .left{
+        width: 40vw;
+
+    }
+
+    /* The login link */
+    a{
+        width: 25vw;
+        text-decoration: none;
+        color:#000;
+        border:2px solid #000;
+        padding: 1vw;
+        border-radius: 2px;
+        font-size: 2vh;
+    }
+
+    a:hover{
+        border-radius: 81% 19% 28% 72% / 79% 67% 33% 21% ;
+    }
+
+    /* The form and session message block */
+    .right{
+        width: 40vw;
+        height: 60vh;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .msg{
+        width:30vw;
+        height:5vh;
+        font-size:2.6vw;
+        background-color:black;
+        color:white;
+        padding-top:1vh;
+        padding-bottom:1vh;
+        border-radius:5px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+
+    /* The why so late fill details and the session message div */
+    .top{
+        align-self: center;
+        color: #ffffff;
+        background-color:rgb(4, 4, 10);
+        box-shadow: 0 8px 32px 0 rgba( 1, 8, 15, 0.37 );
+        backdrop-filter: blur( 8.0px );
+        -webkit-backdrop-filter: blur( 8.0px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        padding: 0.5vw;
+        border-radius: 0.3vw;
+        font-size: 2.5vh;
+        color:white;
+    }
+
+    /* Form tag */
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+        height: 20vh;
+        justify-content: center;
+        align-items:center;
+    }
+
+    /* The 2 input fields holder */
+    .first{
+        justify-content: space-evenly;
+    }
+
+    /* The form input and its styling */
+    input{
+        width: 20vw;
+        height:3.5vh;
+        background-color:rgb(4, 4, 10);
+        outline: none;
+        border-radius: 14px;
+        color:#fff;
+        font-size:1.9vh;
+    }
+
+    .loginBr{
+        display:none;
+    }
+
+    /* The input tags on focus */
+    input:focus{
+        background-color:#45a29e;
+        background-color:rgb(251, 254, 254);
+        color:#000;
+        font-size:2vh;
+        
+    }
+
+    /* The placeholder for input tags */
+    ::placeholder{
+        color:#fff;
+        font-size:1.9vh;
+    }
+
+    /* The submit button */
+    input[type=submit]{
+        
+        background:rgb(4, 4, 10);
+        box-shadow: 0 8px 32px 0 rgba( 1, 8, 15, 0.37 );
+        backdrop-filter: blur( 8.0px );
+        -webkit-backdrop-filter: blur( 8.0px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        width:40vw;
+        height: 5vh;
+        text-align: center;
+        color:white;
+        padding-top:0.5vw;
+        padding-bottom:0.5vw;
+        font-size: 2.4vh;
+        
+    }
+
+    /* Submit button on hover */
+    input[type=submit]:hover{
+        background-image: linear-gradient(190deg ,rgba( 69, 162, 158, 0.35 ),rgba( 60, 226, 215, 0.35 ),rgba( 86, 184, 184, 0.35 ));
+    }
+
+
+    .btn{
+        display:flex;
+        justify-content:center;
+    }
+    /* The forgot password link */
+    .forgot{
+        border:none;
+        background-color:transparent;
+        border-radius:2px;
+        width:20vw;
+        height:4vh;
+        padding:0;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        color:black;
+        font-size:2vh;
+    
+    }
+
+    /* The forgot password link on hover */
+    .forgot:hover{
+        border:none;
+        background-color:transparent;
+        color:black;
+        text-shadow: 0px 0px 1px #000, 
+                0px 0px 1px #000;
+    }
+
+
+}
+      
+    
+
+@media only screen and (min-width: 1201px) {
+
+
+    /* The whole container */
+    .signup{
+        position: relative;
+        top:20%;
+        margin:10vh auto;
+        padding:10vh;
+        background: linear-gradient(to left, rgba(157,204,227,0.55) 51%, rgba(6,1,30,0.85) 40%);
+        box-shadow: 0 8px 32px 0 rgba( 1, 8, 15, 0.37 );
+        backdrop-filter: blur( 8.0px );
+        -webkit-backdrop-filter: blur( 8.0px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        backdrop-filter: blur( 2px );
+        -webkit-backdrop-filter: blur( 2px );
+        border-radius: 10px;
+        color:#fcfcfd;
+        width: 60vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 100% / 20%   ;
+    }
+
+    /* The image styling */
+    #image{
+        width:25vw;
+        height: 55vh;
+        }
+
+    /* The image holding container */
+    .left{
+        width: 30vw;
+        color:#fff;
+        font-size: 2vh;
+
+    }
+
+    /* The anchor tag */
+    a{
+        background-color: rgba( 25, 25, 25, 0.85 );
+        width: 60px;
+        text-decoration: none;
+        color:rgba( 255, 255, 255, 0.55 );
+        border:2px solid black;
+        padding: 1vw;
+        border-radius: 81% 19% 28% 72% / 59% 67% 33% 41% ;
+        font-size: 2vh;
+        text-shadow: 0px 0px 1px #fff, 
+                        0px 0px 0.5px #fff;
+    }
+
+    a.redirect{
+          background:none;
+          border-radius:2px;
+          color:white;
+          border:2px solid white;
+          display:flex;
+          justify-content:center;
+    }
+
+
+    a.redirect:hover{
+        background:none;
+        border-radius: 28% 72% 81% 19%  / 67% 59% 41% 33%;
+        /* border-radius:2px; */
+        display:flex;
+        justify-content:center;
+        text-shadow:none;
+    }
+
+
+    /* The form holiding div */
+    .right{
+        width: 30vw;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .msg{
+        width:30vw;
+        height:3vh;
+        font-size:1.2vw;
+        background-color:black;
+        color:white;
+        margin-bottom:2vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        border-radius:5px;
+        padding-top:1vw;
+        padding-bottom:1vw;
+    }
+    
+    /* The text holding div Why late fill details and session message */
+    .top{
+        align-self: center;
+        color: #ffffff;
+        background-image: linear-gradient(190deg ,#000000,#1f2833);
+        padding: 0.5vw;
+        border-radius: 0.3vw;
+        border:2px solid #fcfcfd;
+        font-size: 2vh;
+        text-shadow: 0px 0px 1px #000, 
+            3px 3px 5px black;
+    }
+
+    /* The form holding div */
+    .center{
+        align-self:center ;
+        justify-self: center;
+        
+    }
+
+    /* The form */
+    form{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        width: 30vw;
+        height: 20vh;
+        justify-content: center;
+        gap: 2vh;
+    }
+
+    /* The input fields block */
+    .first{
+        justify-content: center;
+        justify-self: center;
+    }
+
+    /* THe input field */
+    input{
+        width: 25vw;
+        height:4vh;
+        background-color: #000;
+        outline: none;
+        border-radius: 14px;
+        color:#fcfcfd;
+        font-size:2vh;
+    }
+
+    /* input on focus */
+    input:focus{
+        background-color:#fff;
+        color:#fff;
+        
+    }
+
+    /* Input placeholder */
+    ::placeholder{
+        color:#fcfcfd;
+        font-size:2vh;
+    }
+
+    input[placeholder]:focus{ 
+        color: black; 
+    }
+
+
+    /* The login button */
+    input[type=submit]{
+        width:8vw;
+        height: 5vh;
+        text-align: center;
+        background-image: linear-gradient(190deg ,#000000,#1f2833);
+        color:rgb(248, 248, 248);
+        border:2px solid white;
+        border-radius: 0.5vh;
+        font-size: 2vh;
+        display:flex;
+        align-self:center;
+        padding-left:2vw;
+        
+    }
+
+    /* The forgot password link */
+    .forgot{
+    border:none;
+    background-color:transparent;
+    border-radius:2px;
+    width:15vw;
+    height:4vh;
+    padding:0;
+    display:flex;
+    justify-content:center;
+    align-self:center;
+    color:black;
+    font-size:2.3vh;
+    }
+
+    /* The forgot password on hover */
+    .forgot:hover{
+        
+        border:none;
+        background-color:transparent;
+        color:black;
+        text-shadow: 0px 0px 1px #000, 
+                0px 0px 1px #000;
+    }
+
+}

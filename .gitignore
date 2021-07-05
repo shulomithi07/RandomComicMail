@@ -1,0 +1,15 @@
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Vs code directory automatic generated file
+.dist
+
+
+# The output folder where convertion rotation upload every video is stored
+uploads
+
+# The library folder which is very large to commit
+lib/vendor

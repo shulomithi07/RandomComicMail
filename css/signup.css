@@ -1,0 +1,556 @@
+/* Making everything 0 before starting */
+*{
+    margin:0;
+    padding:0;
+}
+
+/* The image and its alignment */
+body{
+    
+    
+    background-image: url("https://lh3.googleusercontent.com/EtR6xBQzQGmz_oibSTrRAd4-Dtm-X1tijVWcaNvH0BVU_cSAvKY5KdivYix1JFaMafMD_kIA_kHLF7icSYkYKWoW5IBji-miJT6oNn4066kGr9Jpl2cw4Z_HAclRdwoZq0M9lxdsdFQ=w2400");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* The top message */
+.msg{
+    width:30vw;
+    height:5vh;
+    font-size:2vw;
+    background-color:black;
+    color:white;
+    margin-bottom:2vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+  
+  /* Small devices (mobiles) */
+  
+
+  @media only screen and (max-width: 1000px) {
+      
+    /* THe main container */
+    .signup{
+        margin: auto;
+        background: linear-gradient(to top, rgba( 255, 255, 255, 0.65 )  50%,  rgba(34, 29, 70, 0.733) 30%);
+        box-shadow: 0 8px 32px 0 rgba( 1,8, 5, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border: 1px solid rgba( 255, 255, 255, 0.18 ); 
+        width: 80vw;
+        height:90vh;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        flex-direction:column-reverse;
+        border-radius: 100% / 20%   ; 
+    } 
+
+    /* The image and the link */
+    .left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* THe image div */
+    #image{
+        width:45vw;
+        height: 30vh;
+    }
+    /* Break tag for responsive alignment */
+    .hide{
+        display:none;
+    }
+
+    /* The redirect link */
+    a.redirect{
+        background:none;
+        border-radius:2px;
+        color:black;
+        border:2px solid black;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:15vw;
+        height:4vw;
+        text-decoration: none;
+        padding:3px;
+    }
+
+    /* The redirect link on hover */
+    a.redirect:hover{
+        background:none;
+        border-radius: 28% 72% 81% 19%  / 67% 59% 41% 33%;
+        border:2px solid black;
+        display:flex;
+        justify-content:center;
+        text-shadow:none;
+    }
+
+    /* The form tag holder div */
+    .right{
+        width: 70vw;
+        height: 50vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column;
+        gap: 0.5vh;
+    } 
+    
+    /* The session message and the why late fill details messages */
+    .msg{
+        width:55vw;
+        height:5vh;
+        font-size:2.8vw;
+        background-color:black;
+        background-color:rgb(215, 215, 230);
+        box-shadow: 0 8px 32px 0 rgba( 1, 8, 15, 0.37 );
+        backdrop-filter: blur( 8.0px );
+        -webkit-backdrop-filter: blur( 8.0px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 ); 
+        color:black;
+        margin-bottom:2vh;
+        border-radius:5px;
+    }
+
+ 
+    /* THe form tag and its alignments */
+    form{
+        display: flex;
+        justify-content:flex-end;
+        flex-direction:column;
+        align-items:center;
+        width: 60vw;
+        height: 30vh;
+        gap: 0.7vh;
+    }
+
+    /* The input tag design */
+    input{
+        width: 60vw;
+        height:4vh;
+        background-color:rgb(228, 228, 238);
+        outline: none;
+        border-radius: 10px;
+        color:#000;
+        font-size:1.9vh;
+    }
+
+    /* The input tags on focus */
+    input:focus{
+        background-color:#45a29e;
+        background-color:rgb(251, 254, 254);
+        color:#000;
+        font-size:2vh;
+        
+    }
+
+    /* The placeholder for input tags */
+    ::placeholder{
+        color:#000;
+        font-size:1.9vh;
+    }
+
+    /* The submit button */
+    input[type=submit]{
+        display:flex;
+        justify-content:center;
+        box-shadow: 0 8px 32px 0 rgba( 1, 8, 15, 0.37 );
+        backdrop-filter: blur( 8.0px );
+        -webkit-backdrop-filter: blur( 8.0px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        width:30vw;
+        height: 5vh;
+        text-align: center;
+        color:black;
+        padding-top:0.5vw;
+        padding-bottom:0.5vw;
+        font-size: 2.4vh;
+        
+    }
+
+        
+  }
+
+
+@media only screen and (max-width: 1200px) and (min-width: 1001px)  {
+
+    /* The main div */
+    .signup{
+        margin:4vh auto;
+        padding-left:6vw;
+        padding-right:1vw;
+        padding-top:2vw;
+        padding-bottom:2vw;
+        background: rgba( 255, 255, 255, 0.15 );
+        background: linear-gradient(to right, rgba(247, 227, 227, 0.75) 50%, rgba(29, 30, 48, 0.85) 50%);
+        box-shadow: 0 8px 32px 0 rgba( 1,8, 5, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        width: 60vw;
+        height:70vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 100% / 20%   ;
+    }
+
+    /* THe image div */
+    #image{
+        width:25vw;
+        height: 30vw;
+    }
+
+    /* The image and the login link div */
+    .left{
+        width: 30vw;
+
+    }
+
+    /* The login link */
+    a{
+        background-color:#000;
+        width: 60px;
+        text-decoration: none;
+        color:#66fcf1;
+        border:2px solid #66fcf1;
+        padding: 1vw;
+        border-radius: 81% 19% 28% 72% / 79% 67% 33% 21% ;
+        font-size: 2vh;
+    }
+
+    a.redirect{
+        background:none;
+        border-radius:2px;
+        color:black;
+        border:2px solid black;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:5vw;
+        height:3vw;
+    }
+
+    a.redirect:hover{
+        background:none;
+        border-radius: 28% 72% 81% 19%  / 67% 59% 41% 33%;
+        color:black;
+        border:2px solid black;
+        display:flex;
+        justify-content:center;
+        text-shadow:none;
+    }
+
+
+
+    /* The form and session message block */
+    .right{
+        width: 80vw;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2vh;
+    }
+
+    /* The why so late fill details and the session message div */
+    .msg{
+        width:30vw;
+        height:4vh;
+        font-size:2vw;
+        background-color:black;
+        color:white;
+        padding-top:1vh;
+        padding-bottom:1vh;
+        border-radius:5px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+
+
+    /* The form block */
+    .center{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* Form tag */
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+        height: 30vh;
+        justify-content: center;
+        align-items:center;
+        gap: 1vh;
+    }
+
+
+    /* The form input and its styling */
+    input{
+        width: 25vw;
+        height:3.5vh;
+        background-color:rgb(4, 4, 10);
+        outline: none;
+        border-radius: 14px;
+        color:#fff;
+        font-size:1.9vh;
+    }
+
+    /* The input tags on focus */
+    input:focus{
+        background-color:rgb(251, 254, 254);
+        color:#000;
+        font-size:2vh;
+        
+    }
+
+    /* The placeholder for input tags */
+    ::placeholder{
+        color:#fff;
+        font-size:1.9vh;
+    }
+
+    /* The submit button */
+    input[type=submit]{
+        
+        background:rgb(4, 4, 10);
+        box-shadow: 0 8px 32px 0 rgba( 1, 8, 15, 0.37 );
+        backdrop-filter: blur( 8.0px );
+        -webkit-backdrop-filter: blur( 8.0px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        width:10vw;
+        height: 5vh;
+        text-align: center;
+        color:white;
+        padding-top:0.5vw;
+        padding-bottom:0.5vw;
+        font-size: 2.4vh;
+        
+    }
+
+    /* Submit button on hover */
+    input[type=submit]:hover{
+        background-image: linear-gradient(190deg ,rgba(189, 210, 224, 0.35),rgba(121, 189, 235, 0.35),rgba(86, 140, 184, 0.35));
+    }
+
+
+  }
+
+  /* The viewport for devices like smaller laptops and tablets */
+  @media only screen and (min-width: 1201px) {
+
+    /* The main div holding image and the form */
+    .signup{
+        position: relative;
+        margin-left: auto;
+        margin-right:auto;
+        margin-top:5%;
+        padding-left:6vw;
+        padding-right:1vw;
+        padding-top:2vw;
+        padding-bottom:2vw;
+        background: rgba( 255, 255, 255, 0.15 );
+        background: linear-gradient(to right, rgba(230,228,199,0.85) 50%, rgba(5,1,27,0.55) 50%);
+        box-shadow: 0 8px 32px 0 rgba( 1,8, 5, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        width: 60vw;
+        height:70vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 100% / 20%;
+    }
+
+
+    /* THe image div */
+    #image{
+        width:25vw;
+        height: 300px;
+    }
+
+    /* The image and the login link div */
+    .left{
+        width: 30vw;
+
+    }
+
+    /* The login link */
+    a{
+        background-color:#000;
+        width: 60px;
+        text-decoration: none;
+        color:#66fcf1;
+        border:2px solid #66fcf1;
+        border-radius: 81% 19% 28% 72% / 79% 67% 33% 21% ;
+        font-size: 2vh;
+    }
+
+    /* The login link on hover */
+    a:hover{
+        
+        background-color:black;
+        border-radius: 28% 72% 81% 19%  / 67% 59% 41% 33%;
+        color:white;
+    }
+
+    /* The redirect link */
+    a.redirect{
+        background:none;
+        border-radius:2px;
+        color:black;
+        border:2px solid black;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:5vw;
+        height:3vw;
+    }
+
+
+
+    /* The redirect link on hover */
+    a.redirect:hover{
+        background:none;
+        border-radius: 28% 72% 81% 19%  / 67% 59% 41% 33%;
+        /* border-radius:2px; */
+        color:black;
+        border:2px solid black;
+        display:flex;
+        justify-content:center;
+        text-shadow:none;
+    }
+
+
+
+    /* THe form tag holder */
+    .right{
+        width: 30vw;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    /* The why so late message */
+    .msg{
+        width:30vw;
+        height:5vh;
+        font-size:1.2vw;
+        background-color:black;
+        color:white;
+        margin-bottom:2vh;
+        display:flex;
+        justify-content:center;
+        align-self:center;
+        border-radius:5px;
+        padding-top:1vw;
+        padding-bottom:1vw;
+    }
+    /* THe break tag used in smaller devices */
+    .hide{
+        display: none;
+    }
+
+    /* The why so late fill details and the session message div */
+    .top{
+        align-self: center;
+        color: #ffffff;
+        background-color: rgba(230,228,199);
+        box-shadow: 0 8px 32px 0 rgba( 1, 8, 15, 0.37 );
+        backdrop-filter: blur( 8.0px );
+        -webkit-backdrop-filter: blur( 8.0px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        padding: 0.5vw;
+        border-radius: 0.3vw;
+        font-size: 2.5vh;
+        color:#000;
+    }
+
+    /* The form tag holder */
+    .center{
+        display: flex;
+        justify-content:center;
+
+    }
+
+    /* The form tag and its alignment */
+    form{
+        display: flex;
+        flex-wrap:wrap;
+        width: 30vw;
+        height: 20vh;
+        gap: 2vh;
+    }
+
+    /* The input tag */
+    input{
+        width: 14vw;
+        height:4vh;
+        background-color:rgba(230,228,199);
+        outline: none;
+        border-radius: 14px;
+        color:#000;
+        font-size:1.9vh;
+    }
+
+    /* The input tags on focus */
+    input:focus{
+        background-color:rgb(251, 254, 254);
+        color:#000;
+        font-size:2vh;
+        
+    }
+
+    /* The placeholder for input tags */
+    ::placeholder{
+        color:#000;
+        font-size:1.9vh;
+    }
+
+    /* The submit button */
+    input[type=submit]{
+        
+        /* background:rgb(4, 4, 10); */
+        background-color: rgba(230,228,199);
+        box-shadow: 0 8px 32px 0 rgba( 1, 8, 15, 0.37 );
+        backdrop-filter: blur( 8.0px );
+        -webkit-backdrop-filter: blur( 8.0px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        width:7vw;
+        height: 5vh;
+        text-align: center;
+        color:#000;
+        padding-top:0.5vw;
+        padding-bottom:0.5vw;
+        font-size: 2.4vh;
+        
+    }
+
+    /* Submit button on hover */
+    input[type=submit]:hover{
+        background-image: linear-gradient(190deg ,rgba( 69, 162, 158, 0.35 ),rgba( 60, 226, 215, 0.35 ),rgba( 86, 184, 184, 0.35 ));
+    }
+
+  }
