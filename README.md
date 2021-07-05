@@ -109,13 +109,13 @@ In the mail function, the user details that are already fetched from the databas
 ## Easy Access
 | FUNCTIONALITIES |FILES |
 | ------ | ------ |
-| SIGNUP | https://github.com/rtlearn/php-shulomithi07/blob/master/XKCD/index.php |
-| ACTIVATE | https://github.com/rtlearn/php-shulomithi07/blob/master/XKCD/activation.php |
-| LOGIN | https://github.com/rtlearn/php-shulomithi07/blob/master/XKCD/login.php |
-| HOMEPAGE | https://github.com/rtlearn/php-shulomithi07/blob/master/XKCD/homepage.php |
-| SUBSCRIBE| https://github.com/rtlearn/php-shulomithi07/blob/master/XKCD/subscribe.php |
-| UNSUBSCRIBE | https://github.com/rtlearn/php-shulomithi07/blob/master/XKCD/unsubscribe.php |
-| LOGOUT | https://github.com/rtlearn/php-shulomithi07/blob/master/XKCD/logout.php |
+| SIGNUP | https://github.com/shulomithi07/RandomComicMail/blob/main/index.php |
+| ACTIVATE | https://github.com/shulomithi07/RandomComicMail/blob/main/activation.php |
+| LOGIN | https://github.com/shulomithi07/RandomComicMail/blob/main/login.php |
+| HOMEPAGE | https://github.com/shulomithi07/RandomComicMail/blob/main/homepage.php |
+| SUBSCRIBE| https://github.com/shulomithi07/RandomComicMail/blob/main/subscribe.php |
+| UNSUBSCRIBE | https://github.com/shulomithi07/RandomComicMail/blob/main/unsubscribe.php |
+| LOGOUT | https://github.com/shulomithi07/RandomComicMail/blob/main/logout.php |
 
 
 
