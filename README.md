@@ -6,7 +6,7 @@
 ##
 ##
 
-The languages used in this challenge are PHP, HTML, CSS, JAVASCRIPT. Hosted with the help of HEROKU. A mobile-ready application it is.
+The languages used in this challenge are PHP, MYSQL, HTML, CSS, JAVASCRIPT. Hosted with the help of HEROKU. A mobile-ready application it is.
 
 
 ## Features of the website
