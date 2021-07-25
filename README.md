@@ -1,6 +1,6 @@
 # XKCD EMAIL CHALLENGE
 ##### _SIGNUP LOGIN ACTIVATE SUBSCRIBE RECEIVE EMAIL_
-### [WEBSITELINK](https://xkcd-mail.herokuapp.com/)
+### [WEBSITE LINK](https://xkcd-mail.herokuapp.com/)
 
 
 ##
