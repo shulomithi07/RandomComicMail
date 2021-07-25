@@ -20,6 +20,7 @@ The languages used in this challenge are PHP, MYSQL, HTML, CSS, JAVASCRIPT. Host
 ##  TECHNOLOGIES
 
 - ##### PHP 8.0.3
+- ##### MYSQL
 - ##### HTLM5
 - ##### CSS3
 - ##### JAVASCRIPT 1.7
